@@ -1,0 +1,59 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-store/
+.pnpm-debug.log*
+
+# next.js specific ignores
+/.next/
+/out/
+/build
+.next/
+**/*.node
+**/@next/**/*.node
+**/next-swc*
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+.env*.local
+.env
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build output
+dist/
+build/
+
+# logs
+logs/
+*.log
+
+# webpack
+**/*.pack
